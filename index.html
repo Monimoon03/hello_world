@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      .squares {
+        display: flex;
+        display: inline;
+        align-items: stretch;
+        justify-content: center;
+      }
+      .squares box {
+        border: 1px;
+        border-color: red;
+        width: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: stretch;
+        align-content: center;
+      }
+      .box_1 {
+        display: flex;
+        background-color: turquoise;
+        align-items: stretch;
+        justify-content: center;
+        height: 200px;
+      }
+      .box_2 {
+        background-color: yellowgreen;
+        display: flex;
+        height: 200px;
+        align-items: center;
+        justify-content: center;
+      }
+      .box_3 {
+        background-color: pink;
+      }
+      .kitten_bed {
+        width: 300px;
+      }
+    </style>
+  </head>
+  <body>
+    <!--Este es un titulo-->
+    <h1>Hello World!</h1>
+    <section class="cat">
+      <img
+        class="kitten_bed"
+        src="https://media.istockphoto.com/photos/cute-bengal-funny-cat-playing-picture-id1071204136"
+        alt="kitten_playing_in_bed"
+      />
+    </section>
+    <div class="squares">
+      <div class="box_1">1</div>
+      <div class="box_2">2</div>
+      <div class="box_3">3</div>
+    </div>
+    <script>
+      for (let i = 0; i < 5; i++) {
+        console.log(i);
+      }
+    </script>
+  </body>
+</html>
