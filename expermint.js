@@ -1,8 +1,5 @@
-const firstName = "Monica";
-const lastName = "Toro";
-
-const sentence = "Hola" = firstName + " " + lastName + "! Como estas?";
-const sentence_2 = `Hola ${firstName} + ${lastName} + ! Como estas?`;
-
-console.log(sentence);
-console.log(sentence2);
+let nachos = 0;
+while (nachos < 10) {
+    nachos = nachos + 1;
+console.log(nachos);
+}
